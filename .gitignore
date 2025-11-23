@@ -1,47 +1,35 @@
-# MongoDB data folders
+
+# MongoDB data folders (muy pesados)
 mongo_data/
 */mongo_data/
+journal/
 */journal/
-journal/
-*.wt
-*.ns
-
-# SQLite databases
-*.sqlite
-*.db
-
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/
-
-# Large notebooks backups
-*.ipynb~
-
-# Logs
-*.log
-*.tmp
-
-# Python cache
-__pycache__/
-*.pyc
-
-# OS system files
-.DS_Store
-Thumbs.db
-# MAC basura
-__MACOSX/
-._*
-
-# MongoDB
-mongo_data/
-journal/
 *.wt
 *.snappy
 *.turtle
+*.ns
 
 # SQLite
 *.sqlite
+*.db
 
-# Jupyter pesados
-*.ipynb
+# Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
+# Backups de notebooks (seguros para ignorar)
+*.ipynb~
+
+*.log
+*.tmp
+
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+__MACOSX/
+._*
+
+# Windows
+Thumbs.db
