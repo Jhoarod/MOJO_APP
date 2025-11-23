@@ -4,8 +4,6 @@
 *.turtle
 *.ns
 
-*.db
-
 # Checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
