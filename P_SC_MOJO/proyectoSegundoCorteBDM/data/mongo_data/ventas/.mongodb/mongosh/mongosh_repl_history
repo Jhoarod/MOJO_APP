@@ -1,0 +1,4 @@
+db.ventas.find().pretty()
+show collections
+use ventas_db
+show collections

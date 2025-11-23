@@ -1,0 +1,10 @@
+exit
+EXIT
+db.articulos.find({idArticulo:'U2298' }).pretty()
+db.articulos.find(idArticulo:'U2298').pretty()
+db.articulos.find(idArticulo:"U2298").pretty()
+db.articulos.find().pretty()
+show collections
+use articulos_db
+db.articulos.find().pretty()
+use articulos
