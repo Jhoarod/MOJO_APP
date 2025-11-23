@@ -1,16 +1,9 @@
 
-# MongoDB data folders (muy pesados)
-mongo_data/
-*/mongo_data/
-journal/
-*/journal/
 *.wt
 *.snappy
 *.turtle
 *.ns
 
-# SQLite
-*.sqlite
 *.db
 
 # Checkpoints
@@ -18,7 +11,7 @@ journal/
 */.ipynb_checkpoints/
 
 # Backups de notebooks (seguros para ignorar)
-*.ipynb~
+
 
 *.log
 *.tmp
