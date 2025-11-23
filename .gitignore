@@ -28,3 +28,20 @@ __pycache__/
 # OS system files
 .DS_Store
 Thumbs.db
+# MAC basura
+__MACOSX/
+._*
+
+# MongoDB
+mongo_data/
+journal/
+*.wt
+*.snappy
+*.turtle
+
+# SQLite
+*.sqlite
+
+# Jupyter pesados
+*.ipynb
+
